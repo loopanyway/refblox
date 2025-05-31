@@ -1,0 +1,66 @@
+﻿{
+    "060":  {
+                "status":  "planned",
+                "compatible_with":  [
+                                        "011",
+                                        "012",
+                                        "013"
+                                    ],
+                "name":  "formatting_layout",
+                "description":  "Citation styles and document formatting"
+            },
+    "010":  {
+                "status":  "ready",
+                "description":  "Core principles for all academic text types",
+                "name":  "academic_foundations",
+                "version":  "2.0.0",
+                "affects":  [
+                                "011",
+                                "012",
+                                "013"
+                            ]
+            },
+    "030":  {
+                "status":  "planned",
+                "compatible_with":  [
+                                        "011",
+                                        "012",
+                                        "013"
+                                    ],
+                "name":  "methodology_design",
+                "description":  "Quantitative and qualitative research methods"
+            },
+    "020":  {
+                "compatible_with":  [
+                                        "011",
+                                        "012",
+                                        "013"
+                                    ],
+                "status":  "planned",
+                "requires":  [
+                                 "010"
+                             ],
+                "name":  "literature_management",
+                "description":  "Research, management and citation of sources"
+            },
+    "011":  {
+                "version":  "1.0.0",
+                "name":  "student_papers",
+                "requires":  [
+                                 "010"
+                             ],
+                "description":  "Templates for term papers, bachelor and master theses",
+                "status":  "ready",
+                "compatible_with":  [
+                                        "020",
+                                        "030",
+                                        "040",
+                                        "060"
+                                    ]
+            },
+    "system":  {
+                   "description":  "Modular Academic Writing System",
+                   "name":  "RefBlox",
+                   "version":  "1.0.0"
+               }
+}

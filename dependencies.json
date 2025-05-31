@@ -1,4 +1,31 @@
 ﻿{
+    "010":  {
+                "version":  "2.0.0",
+                "name":  "wissenschaftliche_grundlagen",
+                "description":  "Ãœbergreifende Grundlagen fÃ¼r alle wissenschaftlichen Texttypen",
+                "affects":  [
+                                "011",
+                                "012",
+                                "013"
+                            ],
+                "language":  "deutsch",
+                "status":  "ready"
+            },
+    "013":  {
+                "name":  "publikationen",
+                "requires":  [
+                                 "010"
+                             ],
+                "focus":  "deutsches_wissenschaftssystem",
+                "description":  "Deutsche Fachpublikationen und Zeitschriftenartikel",
+                "status":  "planned",
+                "compatible_with":  [
+                                        "020",
+                                        "030",
+                                        "040",
+                                        "060"
+                                    ]
+            },
     "060":  {
                 "status":  "planned",
                 "compatible_with":  [
@@ -6,19 +33,23 @@
                                         "012",
                                         "013"
                                     ],
-                "name":  "formatting_layout",
-                "description":  "Citation styles and document formatting"
+                "name":  "formatierung_layout",
+                "description":  "Deutsche Formatierungsstandards und DIN-Normen",
+                "focus":  "deutsche_formatstandards"
             },
-    "010":  {
-                "status":  "ready",
-                "description":  "Core principles for all academic text types",
-                "name":  "academic_foundations",
-                "version":  "2.0.0",
-                "affects":  [
-                                "011",
-                                "012",
-                                "013"
-                            ]
+    "020":  {
+                "name":  "literaturmanagement",
+                "requires":  [
+                                 "010"
+                             ],
+                "focus":  "deutsche_zitierweisen",
+                "description":  "Deutsche Quellenarbeit und Zitierstandards",
+                "status":  "planned",
+                "compatible_with":  [
+                                        "011",
+                                        "012",
+                                        "013"
+                                    ]
             },
     "030":  {
                 "status":  "planned",
@@ -27,29 +58,18 @@
                                         "012",
                                         "013"
                                     ],
-                "name":  "methodology_design",
-                "description":  "Quantitative and qualitative research methods"
-            },
-    "020":  {
-                "compatible_with":  [
-                                        "011",
-                                        "012",
-                                        "013"
-                                    ],
-                "status":  "planned",
-                "requires":  [
-                                 "010"
-                             ],
-                "name":  "literature_management",
-                "description":  "Research, management and citation of sources"
+                "name":  "methodendesign",
+                "description":  "Forschungsmethoden im deutschen Wissenschaftskontext",
+                "focus":  "deutsche_methodenstandards"
             },
     "011":  {
                 "version":  "1.0.0",
-                "name":  "student_papers",
+                "name":  "studienarbeiten",
                 "requires":  [
                                  "010"
                              ],
-                "description":  "Templates for term papers, bachelor and master theses",
+                "focus":  "deutsche_hochschulstandards",
+                "description":  "Templates fÃ¼r Hausarbeiten, Bachelor- und Masterarbeiten",
                 "status":  "ready",
                 "compatible_with":  [
                                         "020",
@@ -59,8 +79,26 @@
                                     ]
             },
     "system":  {
-                   "description":  "Modular Academic Writing System",
+                   "target_region":  "DACH",
+                   "language":  "deutsch",
+                   "description":  "Modular Academic Writing System - German Focus",
                    "name":  "RefBlox",
                    "version":  "1.0.0"
-               }
+               },
+    "012":  {
+                "version":  "1.0.0",
+                "name":  "dissertationen",
+                "requires":  [
+                                 "010"
+                             ],
+                "focus":  "deutsche_promotionsordnungen",
+                "description":  "Strukturen fÃ¼r Dissertationen und Habilitationen",
+                "status":  "ready",
+                "compatible_with":  [
+                                        "020",
+                                        "030",
+                                        "040",
+                                        "060"
+                                    ]
+            }
 }

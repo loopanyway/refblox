@@ -1,25 +1,35 @@
-﻿# RefBlox Status Overview
+﻿# RefBlox Status Ãœbersicht
 
-Last updated: 2025-05-31 10:04:08
+Letzte Aktualisierung: 2025-05-31 10:53:20
+Fokus: Deutsches Wissenschaftssystem (DACH-Raum)
 
-## Ready Blox
-* 010 academic_foundations (v2.0.0) Foundation for all other blox
-* 011 student_papers (v1.0.0) German university standards
+## Fertige Blox
+* 010 wissenschaftliche_grundlagen (v2.0.0) Basis fÃ¼r alle wissenschaftlichen Texte
+* 011 studienarbeiten (v1.0.0) Deutsche Hochschulstandards
+* 012 dissertationen (v1.0.0) Deutsche Promotionsordnungen
 
-## In Development
-* Currently none
+## In Entwicklung
+* 013 publikationen Deutsche Fachpublikationen
 
-## Planned Blox
-* 020 literature_management Source research and citation
-* 030 methodology_design Research methods
-* 060 formatting_layout Formatting standards
+## Geplante Blox
+* 020 literaturmanagement Deutsche Quellenarbeit und Zitierstandards
+* 030 methodendesign Deutsche Forschungsmethoden
+* 060 formatierung_layout Deutsche Formatierungsstandards (DIN-Normen)
 
-## Dependencies
-* 011 requires 010 (compatible)
-* 020 requires 010 (planned)
-* 030 independent (planned)
+## AbhÃ¤ngigkeiten
+* 011 benÃ¶tigt 010 (kompatibel)
+* 012 benÃ¶tigt 010 (kompatibel)
+* 013 benÃ¶tigt 010 (in Entwicklung)
+* 020 benÃ¶tigt 010 (geplant)
 
-## Progress
-* Ready: 2/10 Blox (20%)
-* In Development: 0/10 (0%)
-* Planned: 3/10 (30%)
+## Fortschritt
+* Fertig: 3 von 8 Blox
+* In Entwicklung: 1 von 8
+* Geplant: 4 von 8
+
+## Deutsche Fokus-Bereiche
+* Hochschulstandards: UniversitÃ¤t, FH, Berufsakademie
+* Promotionsordnungen: Deutsche Dissertationsanforderungen
+* Publikationswesen: VHB, DGF, Deutsche Fachzeitschriften
+* Zitierstandards: DIN 1505, Deutsche Wissenschaftstraditionen
+* QualitÃ¤tssicherung: DFG-Richtlinien, Deutsche Wissenschaftsethik
